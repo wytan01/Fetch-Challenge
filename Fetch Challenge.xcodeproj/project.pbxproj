@@ -14,6 +14,10 @@
 		3A5588342B852F370047C45D /* Fetch_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5588332B852F370047C45D /* Fetch_ChallengeTests.swift */; };
 		3A55883E2B852F370047C45D /* Fetch_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A55883D2B852F370047C45D /* Fetch_ChallengeUITests.swift */; };
 		3A5588402B852F370047C45D /* Fetch_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A55883F2B852F370047C45D /* Fetch_ChallengeUITestsLaunchTests.swift */; };
+		3A5588552B893AB70047C45D /* Dessert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5588542B893AB70047C45D /* Dessert.swift */; };
+		3A5588572B8945460047C45D /* DessertRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5588562B8945450047C45D /* DessertRowView.swift */; };
+		3A55885B2B894C880047C45D /* DessertRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A55885A2B894C880047C45D /* DessertRecipe.swift */; };
+		3A55885D2B89513F0047C45D /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A55885C2B89513F0047C45D /* RecipeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		3A5588392B852F370047C45D /* Fetch ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A55883D2B852F370047C45D /* Fetch_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_ChallengeUITests.swift; sourceTree = "<group>"; };
 		3A55883F2B852F370047C45D /* Fetch_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A5588542B893AB70047C45D /* Dessert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dessert.swift; sourceTree = "<group>"; };
+		3A5588562B8945450047C45D /* DessertRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertRowView.swift; sourceTree = "<group>"; };
+		3A55885A2B894C880047C45D /* DessertRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertRecipe.swift; sourceTree = "<group>"; };
+		3A55885C2B89513F0047C45D /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,12 @@
 		3A5588212B852F350047C45D /* Fetch Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				3A5588542B893AB70047C45D /* Dessert.swift */,
 				3A5588222B852F350047C45D /* Fetch_ChallengeApp.swift */,
 				3A5588242B852F350047C45D /* ContentView.swift */,
+				3A55885C2B89513F0047C45D /* RecipeView.swift */,
+				3A55885A2B894C880047C45D /* DessertRecipe.swift */,
+				3A5588562B8945450047C45D /* DessertRowView.swift */,
 				3A5588262B852F370047C45D /* Assets.xcassets */,
 				3A5588282B852F370047C45D /* Preview Content */,
 			);
@@ -257,7 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A55885B2B894C880047C45D /* DessertRecipe.swift in Sources */,
 				3A5588252B852F350047C45D /* ContentView.swift in Sources */,
+				3A5588552B893AB70047C45D /* Dessert.swift in Sources */,
+				3A55885D2B89513F0047C45D /* RecipeView.swift in Sources */,
+				3A5588572B8945460047C45D /* DessertRowView.swift in Sources */,
 				3A5588232B852F350047C45D /* Fetch_ChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
