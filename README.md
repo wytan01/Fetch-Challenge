@@ -27,7 +27,7 @@ challenge:
     - Project should compile using the latest version of Xcode.
 
 ## Disclaimer
-I am not very fluent in SwiftUI as I normally use UI Kit when coding in Swift. However, I wanted to try out Swift UI since it was preferred over UI Kit and to give myself a challenge. As such, I followed many tutorials/Stack Overflow posts and tried to list most of the resources I have used below. I
+I am not very fluent in SwiftUI as I normally use UI Kit when coding in Swift. However, I wanted to try out Swift UI since it was preferred over UI Kit and to give myself a challenge. As such, I followed many tutorials/Stack Overflow posts and tried to list most of the resources I have used below. 
 
 ## Resources
 - https://www.hackingwithswift.com/quick-start/swiftui/swiftui-tutorial-building-a-complete-project
