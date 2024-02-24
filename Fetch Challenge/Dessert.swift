@@ -13,7 +13,7 @@ struct DessertList: Codable {
     var meals: [Dessert]
 }
 
-struct Dessert: Codable {
+struct Dessert: Codable, Hashable {
     var idMeal : String
     var strMeal : String
     var strMealThumb : String
