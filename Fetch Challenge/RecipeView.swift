@@ -87,8 +87,66 @@ struct RecipeView: View {
                 dessertRecipe = decodedResponse.meals
                 recipe = dessertRecipe[0]
                 
-                // combine ingredients and measurements
-                ingredientsAndMeasurements = [(recipe.strIngredient1, recipe.strMeasure1), (recipe.strIngredient2, recipe.strMeasure2), (recipe.strIngredient3, recipe.strMeasure3), (recipe.strIngredient4, recipe.strMeasure4), (recipe.strIngredient5, recipe.strMeasure5), (recipe.strIngredient6, recipe.strMeasure6), (recipe.strIngredient7, recipe.strMeasure7), (recipe.strIngredient8, recipe.strMeasure8), (recipe.strIngredient9, recipe.strMeasure9), (recipe.strIngredient10, recipe.strMeasure10), (recipe.strIngredient11, recipe.strMeasure11), (recipe.strIngredient12, recipe.strMeasure12), (recipe.strIngredient13, recipe.strMeasure13), (recipe.strIngredient14, recipe.strMeasure14), (recipe.strIngredient15, recipe.strMeasure15), (recipe.strIngredient16, recipe.strMeasure16), (recipe.strIngredient17, recipe.strMeasure17), (recipe.strIngredient18, recipe.strMeasure18), (recipe.strIngredient19, recipe.strMeasure19), (recipe.strIngredient20, recipe.strMeasure20)]
+                if (recipe.strIngredient1 != nil && recipe.strMeasure1 != nil) {
+                    ingredientsAndMeasurements.append((recipe.strIngredient1!, recipe.strMeasure1!))
+                }
+                if (recipe.strIngredient2 != nil && recipe.strMeasure2 != nil) {
+                    ingredientsAndMeasurements.append((recipe.strIngredient2!, recipe.strMeasure2!))
+                }
+                if (recipe.strIngredient3 != nil && recipe.strMeasure3 != nil) {
+                    ingredientsAndMeasurements.append((recipe.strIngredient3!, recipe.strMeasure3!))
+                }
+                if (recipe.strIngredient4 != nil && recipe.strMeasure4 != nil) {
+                    ingredientsAndMeasurements.append((recipe.strIngredient4!, recipe.strMeasure4!))
+                }
+                if (recipe.strIngredient5 != nil && recipe.strMeasure5 != nil) {
+                    ingredientsAndMeasurements.append((recipe.strIngredient5!, recipe.strMeasure5!))
+                }
+                if (recipe.strIngredient6 != nil && recipe.strMeasure6 != nil) {
+                    ingredientsAndMeasurements.append((recipe.strIngredient6!, recipe.strMeasure6!))
+                }
+                if (recipe.strIngredient7 != nil && recipe.strMeasure7 != nil) {
+                    ingredientsAndMeasurements.append((recipe.strIngredient7!, recipe.strMeasure7!))
+                }
+                if (recipe.strIngredient8 != nil && recipe.strMeasure8 != nil) {
+                    ingredientsAndMeasurements.append((recipe.strIngredient8!, recipe.strMeasure8!))
+                }
+                if (recipe.strIngredient9 != nil && recipe.strMeasure9 != nil) {
+                    ingredientsAndMeasurements.append((recipe.strIngredient9!, recipe.strMeasure9!))
+                }
+                if (recipe.strIngredient10 != nil && recipe.strMeasure10 != nil) {
+                    ingredientsAndMeasurements.append((recipe.strIngredient10!, recipe.strMeasure10!))
+                }
+                if (recipe.strIngredient11 != nil && recipe.strMeasure11 != nil) {
+                    ingredientsAndMeasurements.append((recipe.strIngredient11!, recipe.strMeasure11!))
+                }
+                if (recipe.strIngredient12 != nil && recipe.strMeasure12 != nil) {
+                    ingredientsAndMeasurements.append((recipe.strIngredient12!, recipe.strMeasure12!))
+                }
+                if (recipe.strIngredient13 != nil && recipe.strMeasure13 != nil) {
+                    ingredientsAndMeasurements.append((recipe.strIngredient13!, recipe.strMeasure13!))
+                }
+                if (recipe.strIngredient14 != nil && recipe.strMeasure14 != nil) {
+                    ingredientsAndMeasurements.append((recipe.strIngredient14!, recipe.strMeasure14!))
+                }
+                if (recipe.strIngredient15 != nil && recipe.strMeasure15 != nil) {
+                    ingredientsAndMeasurements.append((recipe.strIngredient15!, recipe.strMeasure15!))
+                }
+                if (recipe.strIngredient16 != nil && recipe.strMeasure16 != nil) {
+                    ingredientsAndMeasurements.append((recipe.strIngredient16!, recipe.strMeasure16!))
+                }
+                if (recipe.strIngredient17 != nil && recipe.strMeasure17 != nil) {
+                    ingredientsAndMeasurements.append((recipe.strIngredient17!, recipe.strMeasure17!))
+                }
+                if (recipe.strIngredient18 != nil && recipe.strMeasure18 != nil) {
+                    ingredientsAndMeasurements.append((recipe.strIngredient18!, recipe.strMeasure18!))
+                }
+                if (recipe.strIngredient19 != nil && recipe.strMeasure19 != nil) {
+                    ingredientsAndMeasurements.append((recipe.strIngredient19!, recipe.strMeasure19!))
+                }
+                if (recipe.strIngredient20 != nil && recipe.strMeasure20 != nil) {
+                    ingredientsAndMeasurements.append((recipe.strIngredient20!, recipe.strMeasure20!))
+                }
             }
         } catch {
             print("Invalid data")
