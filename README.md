@@ -20,7 +20,9 @@ challenge:
     - Project should compile using the latest version of Xcode.
 
 ## Disclaimer
-I am not fluent in SwiftUI as I normally use UI Kit when coding in Swift. However, I wanted to try out Swift UI since it was preferred over UI Kit for this challenge and I wanted to challenge myself. As such, I followed many tutorials/Stack Overflow posts and tried to list most of the resources I have used below. 
+I have just started learning Swift this year as part of CodePath's online development course. As such, I am not too fluent in SwiftUI as I have been taught the basics with UI Kit. However, I wanted to try out Swift UI since it was preferred over UI Kit for this challenge and I wanted to challenge myself. As such, I followed many tutorials/Stack Overflow posts and tried to list most of the resources I have used below. 
+
+I also understand that many of the coding approaches I used, such as when filtering out the null/empty values, are not the most foolproof or efficient methods. However, researching the most proper method to complete this challenge would take me a much longer time than I would have liked to spend on a take-home test. Hence, I solved most of the requirements as best as I could with my current knowledge of Swift/SwiftUI.
 
 ## Resources
 - https://www.hackingwithswift.com/quick-start/swiftui/swiftui-tutorial-building-a-complete-project
